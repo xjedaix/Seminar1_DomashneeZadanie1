@@ -6,14 +6,18 @@
 
 Console.Clear(); // очищает консоль
 Console.WriteLine("Введите число 1: "); // задаем вопрос пользователю данной командой
-int number1 = int.Parse(Console.ReadLine());
+int a = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите число 2: "); // задаем вопрос пользователю данной командой
-int number2 = int.Parse(Console.ReadLine());
-if(numberA > numberB)
-{
-    Console.WriteLine("первое число больше чем второе");
-}
-if(numberA < numberB)
-{
-    Console.WriteLine("Первое число меньше чем второе");
-}
+int b = int.Parse(Console.ReadLine());
+int max = 
+int min = 
+
+
+if(a > b);
+if(a < b);
+
+Console.Write("max = ");
+Console.WriteLine(max);
+
+Console.Write("min = ");
+Console.WriteLine(min);
