@@ -9,15 +9,11 @@ Console.WriteLine("Введите число 1: "); // задаем вопрос
 int a = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите число 2: "); // задаем вопрос пользователю данной командой
 int b = int.Parse(Console.ReadLine());
-int max = 
-int min = 
-
-
-if(a > b);
-if(a < b);
-
-Console.Write("max = ");
-Console.WriteLine(max);
-
-Console.Write("min = ");
-Console.WriteLine(min);
+if(a > b){
+Console.WriteLine($"Первое число больше чем второе");
+return;
+}
+else
+{
+    Console.WriteLine($"Второе число больше чем первое");
+}
