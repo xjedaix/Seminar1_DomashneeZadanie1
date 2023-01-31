@@ -3,3 +3,14 @@
 // 4 -> да
 // -3 -> нет
 // 7 -> нет
+
+Console.Clear();                                        // очищает консоль
+Console.WriteLine("Введите число: ");                   // задаем вопрос пользователю данной командой
+int number = int.Parse(Console.ReadLine());
+int i = (number % 2);
+if (i == 0) 
+{
+    Console.WriteLine("число четное");
+}
+else
+    Console.WriteLine("число не четное");

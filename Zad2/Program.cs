@@ -7,18 +7,17 @@
 
 Console.Clear(); // очищает консоль
 Console.WriteLine("Введите число 1: ");                   // задаем вопрос пользователю данной командой
-int a = int.Parse(Console.ReadLine());
+int number1 = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите число 2: ");                  // задаем вопрос пользователю данной командой
-int b = int.Parse(Console.ReadLine());
+int number2 = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите число 3: ");                  // задаем вопрос пользователю данной командой
-int d = int.Parse(Console.ReadLine());
-max = a;
-if(a < max) max = b;
-Console.Write("max = ");
-Console.WriteLine(max);
-if(b < max) max = a;
-Console.Write("max = ");
-Console.WriteLine(max);
-if(C < max) max = c;
-Console.Write("max = ");
+int number3 = int.Parse(Console.ReadLine());
+
+int max = number1;
+
+if(number2 > max) max = number2;
+if(number3 > max) max = number3;
+
+
+Console.Write("Максимальное число = ");
 Console.WriteLine(max);
